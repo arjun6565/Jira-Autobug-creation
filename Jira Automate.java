@@ -35,7 +35,7 @@ public class JiraBugCreation {
         }
 		
 		WebElement PassWord = driver.findElement(By.xpath("//input[@name=\"password\"]"));
-		PassWord.sendKeys("Infotech@6565");
+		PassWord.sendKeys("Password");
 		
 		driver.findElement(By.className("css-178ag6o")).click();
 		
