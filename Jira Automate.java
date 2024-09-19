@@ -25,7 +25,7 @@ public class JiraBugCreation {
             e.printStackTrace();
         }
 		WebElement UserName = driver.findElement(By.id("username"));
-		UserName.sendKeys("abc@arabyads.com");
+		UserName.sendKeys("abc@gmail.com");
 		
 		driver.findElement(By.className("css-178ag6o")).click();
 		try {
